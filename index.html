@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- everything will be stored in wrapper container -->
+  <div class="wrapper">
+    <div class="stats-container">
+      <!-- used to show number of moves and time it takes to complete the game -->
+      <div id="moves-count"></div>
+      <div id="time"></div>
+    </div>
+    <!-- to hold different cards -->
+    <div class="game-container"></div>
+    <button id="stop" class="hide">Stop Game</button></div>
+    <!-- shows result at the end after flipping all the cards -->
+
+    <div class="controls-container">
+        <h2>Memory Game🧠</h2>
+        <img class="img" src="images/memory.png" alt="Memory Game Picture">
+        <pre> Click the cards and find same images. 
+When images are not matched, it will flip back. 
+To win the game, moves should be less than or equal to 20. 
+Time is limitless. 
+Built your memory power.
+        </pre>
+        <p id="result"></p>
+        <button id="start">Start Game</button>
+        
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+  
+</body>  
+</html>
